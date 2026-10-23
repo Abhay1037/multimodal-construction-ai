@@ -2,6 +2,12 @@
 
 [![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Abhay1037/multimodal-construction-ai&branch=main&mainModule=streamlit_app/app.py)
 
+## 🌐 Live Demo
+
+**https://multimodal-construction-ai-ormdkzq6w8tjyhfcjsjjjy.streamlit.app/**
+
+> If the link asks for a Streamlit login, set the app visibility to **Public** (Streamlit Cloud → app menu ⋮ → Settings → Sharing).
+
 AI-powered construction platform that combines multimodal LLaMA vision models, project cost
 estimation, and generative AI (Flux / Pollinations) image generation into a single full-stack
 dashboard.
