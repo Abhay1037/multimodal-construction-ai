@@ -97,6 +97,26 @@ GEMINI_API_KEY = "your_gemini_api_key"
 ```
 Without a key, the app runs in graceful **Demonstration Mode**.
 
+### Deploy to Streamlit Community Cloud (1-Click)
+
+Repository: `https://github.com/Abhay1037/multimodal-construction-ai`
+
+1. Go to **https://share.streamlit.io** and sign in with GitHub.
+2. Click **Create app** → **Deploy a public app from GitHub**.
+3. Fill in:
+   - **Repository:** `Abhay1037/multimodal-construction-ai`
+   - **Branch:** `main`
+   - **Main file path:** `streamlit_app/app.py`
+4. Open **Advanced settings**:
+   - **Python version:** `3.12` (recommended — `google-generativeai` compatibility)
+   - **Secrets** (optional):
+     ```toml
+     GEMINI_API_KEY = "your_gemini_api_key"
+     ```
+5. Click **Deploy**. The app will be live at `https://<your-app-name>.streamlit.app`.
+
+The repository root includes `requirements.txt` and `.streamlit/config.toml` so no extra configuration is needed. Without a Gemini key the app still works in Demonstration Mode.
+
 ## Local Setup
 
 ### 1. Backend
